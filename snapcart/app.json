@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "snapcart",
+    "slug": "snapcart",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./common/assets/images/basket.png",
+    "scheme": "snapcart",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./common/assets/images/basket.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./common/assets/images/basket.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./common/assets/images/basket.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
