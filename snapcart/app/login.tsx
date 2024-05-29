@@ -33,9 +33,6 @@ const LoginScreen = () => {
     if (res?.success) {
       login(res.user)
       router.replace('Home');
-
-     
-    
     } else {
       alert('Invalid Email and Password');
     }

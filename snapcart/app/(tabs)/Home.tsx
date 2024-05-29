@@ -95,7 +95,7 @@ const Home = () => {
       </View>
       <View style={styles.welcomeContainer}>
         <Text style={styles.welcomeText}>Welcome {user ? user.name: 'user'}</Text>
-        <Text style={styles.subWelcomeText}>Snapcart 🛒</Text>
+        <Text style={styles.subWelcomeText}>To Snapcart 🛒</Text>
       </View>
 
       <View style={styles.newArrivalsContainer}>
