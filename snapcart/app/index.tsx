@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, {useEffect, useState} from 'react';
 import { Provider, useDispatch } from 'react-redux';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import OnboardingScreen from './onboarding';
@@ -20,7 +20,6 @@ const LoadCartData = () => {
     };
     loadCart();
   }, [dispatch]);
-
   return null;
 };
 
